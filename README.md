@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Slim 3 MVC Skeleton
 
 This is a simple skeleton project for Slim 3 that includes FluentPDO, Twig and Monolog.
@@ -57,7 +56,7 @@ Set `storage/` folder permission to writable when deploy to production environme
 * `app/controllers/IndexController.php`: Controller class for the home page
 * `app/models/ConfigurationModel.php`: Model class for configurations table
 * `app/templates/index.twig`: Template file for the home page
-=======
+============
 # Heart_dog-2019_sw_exhibition
 
 #1. 개발 내용
@@ -69,13 +68,24 @@ Set `storage/` folder permission to writable when deploy to production environme
 #2. 개발 환경
 
 아누이노 NANO
+       통신 모듈 : NRF24L01
+       블루투스 모듈 : HC-05 
+       GPS 모듈 : NEO-7M
+       심박 센서
+       
+안드로이드 : Java
+       Google Map ( 아두이노에서 받은 GPS 위치 기반으로 위치 표시 )
+       User Management ( 회원가입, 로그인 )
+       Dog Management ( 강아지 등록 )
+       
 
-통신 모듈 : NRF24L01
+서버 : PHP, Slim Framework
+       Data Transfer ( 아두이노 / 안드로이드에서 받은 데이터 기반으로 저장 및 Transfer )
+       DB Communication
+       User Management ( 회원가입, 로그인 )
+       Dog Management ( 강아지 등록 )
+       
 
-블루투스 모듈 : HC-05 
-
-안드로이드 폰
-
-서버
-
->>>>>>> 31d9adf403e57a62d330ee3c1eca1099d2c3108c
+DB : MySQL
+       Data Store
+              
