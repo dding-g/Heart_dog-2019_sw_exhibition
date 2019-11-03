@@ -61,7 +61,7 @@ Set `storage/` folder permission to writable when deploy to production environme
 
 #1. 개발 내용
 
-강아지의 심장박동을 측정하여 강아지의 심장 질환을 사전에 예방하고 건강 상태를 체크한다. 
+* `강아지의 심장박동을 측정하여 강아지의 심장 질환을 사전에 예방하고 건강 상태를 체크한다. 
 
 또한 GPS 모듈을 장착하여 강아지의 반경 1km 안에서 강아지의 위치가 어딘지 체크할 수 있으며 최대한 가벼운 무게를 위해 아두이노 NANO를 사용한다. 
 
