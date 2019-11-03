@@ -74,4 +74,13 @@ class DataController extends BaseController
         return $this->db_model->is_sign_in($user_data);
     }
 
+    //profile process method
+    public function profile_process()
+    {   
+        $user_data_json = file_get_contents('php://input');
+        $user_data = json_decode($user_data_json, true);
+
+        return $this->db_model->display_profile_process($user_data);
+    }
+
 }
