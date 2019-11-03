@@ -57,35 +57,35 @@ Set `storage/` folder permission to writable when deploy to production environme
 * `app/models/ConfigurationModel.php`: Model class for configurations table
 * `app/templates/index.twig`: Template file for the home page
 ============
-# Heart_dog-2019_sw_exhibition
+## Heart_dog-2019_sw_exhibition
 
 # 1. 개발 내용
 
-* `강아지의 심장박동을 측정하여 강아지의 심장 질환을 사전에 예방하고 건강 상태를 체크한다. 
+* `강아지의 심장박동을 측정하여 강아지의 심장 질환을 사전에 예방하고 건강 상태를 체크한다.' 
 
-* `또한 GPS 모듈을 장착하여 강아지의 반경 1km 안에서 강아지의 위치가 어딘지 체크할 수 있으며 최대한 가벼운 무게를 위해 아두이노 NANO를 사용한다. 
+* `또한 GPS 모듈을 장착하여 강아지의 반경 1km 안에서 강아지의 위치가 어딘지 체크할 수 있으며 최대한 가벼운 무게를 위해 아두이노 NANO를 사용한다.' 
 
 # 2. 개발 환경
 
-* `아누이노 NANO
-* `       통신 모듈 : NRF24L01
-* `       블루투스 모듈 : HC-05 
-* `       GPS 모듈 : NEO-7M
-* `       심박 센서
+* `아누이노 NANO'
+*        통신 모듈 : NRF24L01
+*        블루투스 모듈 : HC-05 
+*       GPS 모듈 : NEO-7M
+*        심박 센서
        
-* `안드로이드 : Java
-* `       Google Map ( 아두이노에서 받은 GPS 위치 기반으로 위치 표시 )
-* `       User Management ( 회원가입, 로그인 )
-* `       Dog Management ( 강아지 등록 )
-       
-
-* `서버 : PHP, Slim Framework
-* `       Data Transfer ( 아두이노 / 안드로이드에서 받은 데이터 기반으로 저장 및 Transfer )
-* `       DB Communication
-* `       User Management ( 회원가입, 로그인 )
-* `       Dog Management ( 강아지 등록 )
+* `안드로이드 : Java'
+* `       Google Map ( 아두이노에서 받은 GPS 위치 기반으로 위치 표시 )'
+* `       User Management ( 회원가입, 로그인 )'
+* `       Dog Management ( 강아지 등록 )'
        
 
-* `DB : MySQL
-* `       Data Store
+* `서버 : PHP, Slim Framework'
+*        Data Transfer ( 아두이노 / 안드로이드에서 받은 데이터 기반으로 저장 및 Transfer )
+*       DB Communication
+*       User Management ( 회원가입, 로그인 )
+*        Dog Management ( 강아지 등록 )
+       
+
+* DB : MySQL
+*       Data Store
               
