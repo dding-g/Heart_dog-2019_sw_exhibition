@@ -74,9 +74,9 @@ Set `storage/` folder permission to writable when deploy to production environme
 *        심박 센서
        
 * `안드로이드 : Java'
-* `       Google Map ( 아두이노에서 받은 GPS 위치 기반으로 위치 표시 )'
-* `       User Management ( 회원가입, 로그인 )'
-* `       Dog Management ( 강아지 등록 )'
+*        Google Map ( 아두이노에서 받은 GPS 위치 기반으로 위치 표시 )
+*        User Management ( 회원가입, 로그인 )
+*        Dog Management ( 강아지 등록 )
        
 
 * `서버 : PHP, Slim Framework'
@@ -86,6 +86,6 @@ Set `storage/` folder permission to writable when deploy to production environme
 *        Dog Management ( 강아지 등록 )
        
 
-* DB : MySQL
+* `DB : MySQL'
 *       Data Store
               
