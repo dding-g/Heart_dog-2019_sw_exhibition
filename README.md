@@ -3,9 +3,12 @@
 
 # 1. 개발 내용
 
-* `강아지의 심장박동을 측정하여 강아지의 심장 질환을 사전에 예방하고 건강 상태를 체크한다.' 
-
-* `또한 GPS 모듈을 장착하여 강아지의 반경 1km 안에서 강아지의 위치가 어딘지 체크할 수 있으며 최대한 가벼운 무게를 위해 아두이노 NANO를 사용한다.' 
+* `심장박동 센서, GPS , 블루투스 , 무선 통신 모듈이 아두이노 나노와 연결되어 구성됩니다.
+안드로이드 어플리케이션을 통해 아두이노 나노와 블루투스 통신으로 데이터를 주고 받으며,
+만약, 아두이노 나노와 안드로이드 간 블루투스 연결이 제한될 경우에는 무선 통신 모듈을
+사용하여 집에 있는 다른 아두이노 나노와 통신해 데이터를 서버로 전송합니다.
+또한 DB 에 저장된 위도와 경도, 심장박동 데이터를 Restful API를 이용해
+스마트폰 어플리케이션에서 실시간으로 반려동물의 위치와 심장박동을 확인할 수 있습니다' 
 
 # 2. 개발 환경
 
@@ -23,6 +26,7 @@
 *        Dog Management ( 강아지 등록 )
 *        Open Weather Map API : https://openweathermap.org/api
 *        Google Map API : https://cloud.google.com/maps-platform/?hl=ko
+*        MPAndroidChart : https://github.com/PhilJay/MPAndroidChart
 
        
 
@@ -36,8 +40,10 @@
 
 # DB : MySQL
 *       Data Store
-           =============================================================================================   
-           # Slim 3 MVC Skeleton
+
+=============================================================================================  
+
+# Slim 3 MVC Skeleton
 
 This is a simple skeleton project for Slim 3 that includes FluentPDO, Twig and Monolog.
 
